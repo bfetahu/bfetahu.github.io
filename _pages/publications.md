@@ -14,7 +14,7 @@ author_profile: true
 {% for yearMonth in postsByYear %}
   <h2>{{ yearMonth.name }}</h2>
       {% for post in yearMonth.items %}
- <li> {% include archive-single.html %}</li>
+      {% include archive-single.html %}
       {% endfor %}
 {% endfor %}
 
