@@ -13,11 +13,9 @@ author_profile: true
 
 {% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'"  %}
 {% for yearMonth in postsByYear %}
-  <h3>{{ yearMonth.name }}</h3>
-    <ul>
+  <h2>{{ yearMonth.name }}</h2>
       {% for post in yearMonth.items %}
-        <li>  {% include archive-single.html %} </li>
+        {% include archive-single.html %}
       {% endfor %}
-    </ul>
 {% endfor %}
 
