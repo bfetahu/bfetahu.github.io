@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Besnik Fetahu"
-  avatar           : "profile.png"
+  avatar           : "bfetahu.jpg"
   bio              : "I am a Post-doctoral researcher at the L3S Research Center, Leibniz University of Hannover"
   location         : "Hannover, Germany"
   employer         :
@@ -251,7 +251,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europ/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

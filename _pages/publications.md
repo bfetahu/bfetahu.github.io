@@ -10,7 +10,11 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'" | sort: 'name' | reverse %}
+{% for yearMonth in postsByYear %}
+  <h2>{{ yearMonth.name }}</h2>
+      {% for post in yearMonth.items %}
+      {% include archive-single.html %}
+      {% endfor %}
 {% endfor %}
+
