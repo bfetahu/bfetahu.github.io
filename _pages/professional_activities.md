@@ -1,3 +1,14 @@
+---
+layout: archive
+title: "Professional Activities"
+permalink: /professional_activities/
+author_profile: true
+redirect_from:
+  - /pc
+---
+
+{% include base_path %}
+
 ## Program Committees 
 * Annual Conference of the Association for Computational Linguistics (ACL) 2019, 2020 Research Track
 * Empirical Methods in Natural Language Processing (EMNLP–IJCNLP) 2019, 2020 Research Track
