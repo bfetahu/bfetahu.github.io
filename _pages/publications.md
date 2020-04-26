@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 
 {% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'"  %}
-{% for yearMonth in postsByYearMonth %}
+{% for yearMonth in postsByYear %}
   <h3>{{ yearMonth.name }}</h3>
     <ul>
       {% for post in yearMonth.items %}
