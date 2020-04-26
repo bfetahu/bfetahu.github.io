@@ -2,7 +2,7 @@
 title: "Web Science"
 collection: teaching
 type: "Guest Lecture"
-permalink: /teaching/snlp2018
+permalink: /teaching/webscience2019
 venue: "Leibniz University of Hannover"
 date: 2019-10-01
 topic: "Text Mining and NLP Applications"
