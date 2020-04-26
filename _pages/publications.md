@@ -10,7 +10,7 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-{% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'" | reverse %}
 {% for yearMonth in postsByYear %}
   <h2>{{ yearMonth.name }}</h2>
       {% for post in yearMonth.items %}
