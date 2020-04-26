@@ -10,3 +10,10 @@ semesters: Winter Semester 2016, 2017, 2018, 2019
 ---
 
 
+### Topics
+
+* Word Meaning
+* Syntactic Parsing
+* Relation Extraction
+* Named Entity Recognition & Entity Linking
+* Knowledge Base Construction
