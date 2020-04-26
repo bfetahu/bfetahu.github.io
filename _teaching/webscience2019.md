@@ -4,7 +4,9 @@ collection: teaching
 type: "Guest Lecture"
 permalink: /teaching/webscience2019
 venue: "Leibniz University of Hannover"
-date: 2019-10-01
 topic: "Text Mining and NLP Applications"
 location: "Hannover, Germany"
+semesters: Winter Semester 2016, 2017, 2018, 2019
 ---
+
+
